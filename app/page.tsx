@@ -38,7 +38,7 @@ const places: Place[] = [
     id: 1,
     title: "مركز الزوار",
     icon: Building2,
-    image: "/assets/visitor-center.png",
+    image: "/SSH/assets/visitor-center.png",
     imageAlt: "تصور معماري لمركز الزوار",
     intro:
       "وجهة معرفية مفتوحة تأخذ الزائر في رحلة تفاعلية للتعرّف على أحداث غزوة أُحد وقيمها الخالدة، ضمن تجربة تجمع بين التاريخ والتصميم والمحتوى البصري.",
@@ -62,7 +62,7 @@ const places: Place[] = [
     id: 2,
     title: "جبل الرماة",
     icon: Mountain,
-    image: "/assets/archers-hill.png",
+    image: "/SSH/assets/archers-hill.png",
     imageAlt: "تصور تطوير تجربة جبل الرماة",
     intro:
       "معلم تاريخي بارز يأخذ الزائر في رحلة معرفية تستحضر أحداث غزوة أُحد وقيمة المكان وأثره الممتد.",
@@ -86,7 +86,7 @@ const places: Place[] = [
     id: 3,
     title: "المتحف والمعرض التفاعلي",
     icon: Landmark,
-    image: "/assets/interactive-museum.png",
+    image: "/SSH/assets/interactive-museum.png",
     imageAlt: "تصور معماري للمتحف والمعرض التفاعلي",
     intro:
       "وجهة ثقافية تأخذ الزائر في رحلة عبر أحداث غزوة أُحد، وتربطه بإرث المكان من خلال سرد قصصي وتجارب بصرية وحسية تفاعلية تجمع بين أصالة التاريخ والابتكار المعاصر.",
@@ -110,7 +110,7 @@ const places: Place[] = [
     id: 4,
     title: "تجربة الواقع الافتراضي",
     icon: Glasses,
-    image: "/assets/vr-experience.png",
+    image: "/SSH/assets/vr-experience.png",
     imageAlt: "تصور مبنى تجربة الواقع الافتراضي",
     intro:
       "تجربة ثقافية تنقل الزائر عبر الزمن لاستكشاف أحداث غزوة أُحد ومعايشة تفاصيلها، باستخدام تقنيات الواقع الافتراضي التي تجمع بين المعرفة والتفاعل بأسلوب مبتكر.",
@@ -134,7 +134,7 @@ const places: Place[] = [
     id: 5,
     title: "تجربة الرماية",
     icon: Target,
-    image: "/assets/archery-experience.png",
+    image: "/SSH/assets/archery-experience.png",
     imageAlt: "واجهة تجربة الرماية",
     intro:
       "تجربة تفاعلية مستوحاة من ارتباط الرماية بأحداث غزوة أُحد، تتيح للزائر خوض تحدٍ يجمع بين التركيز والدقة ضمن بيئة آمنة ومهيأة لمختلف الفئات.",
@@ -158,7 +158,7 @@ const places: Place[] = [
     id: 6,
     title: "منطقة الطفل",
     icon: Baby,
-    image: "/assets/children-zone.png",
+    image: "/SSH/assets/children-zone.png",
     imageAlt: "تصور منطقة الطفل التعليمية والترفيهية",
     intro:
       "تجربة تعليمية وترفيهية متكاملة تحول الطفل من زائر إلى مستكشف؛ يعيش رحلة مليئة بالتعلم واللعب والاكتشاف، ويتعرف على تاريخ المكان بأسلوب تفاعلي يناسب عمره ويصنع تجربة تبقى في ذاكرته.",
@@ -182,7 +182,7 @@ const places: Place[] = [
     id: 7,
     title: "السوق الشعبي",
     icon: Store,
-    image: "/assets/traditional-market.png",
+    image: "/SSH/assets/traditional-market.png",
     imageAlt: "تصور السوق الشعبي",
     intro:
       "وجهة ثقافية وتجارية تجمع تنوع الثقافات والمنتجات في أجواء مستوحاة من الأسواق الشعبية، وتتيح للزائر اكتشاف المنتجات المحلية والعالمية والحرف والهدايا، مع إبراز هوية المدينة المنورة وموروثها بأسلوب أصيل ومعاصر.",
@@ -206,7 +206,7 @@ const places: Place[] = [
     id: 8,
     title: "الأكشاك التجارية",
     icon: PanelsTopLeft,
-    image: "/assets/commercial-kiosks.png",
+    image: "/SSH/assets/commercial-kiosks.png",
     imageAlt: "تصور الأكشاك التجارية",
     intro:
       "مساحات تجارية متنوعة تستقطب العلامات التجارية والأسر المنتجة من أهل المنطقة، لتقديم منتجات وخدمات تلبي احتياجات الزوار، وتسهم في دعم المشاريع المحلية وإثراء التجربة التجارية في ميدان سيد الشهداء.",
@@ -233,9 +233,9 @@ const places: Place[] = [
     id: 9,
     title: "منطقة المطاعم والمقاهي",
     icon: UtensilsCrossed,
-    image: "/assets/restaurants-cafes.png",
+    image: "/SSH/assets/restaurants-cafes.png",
     imageAlt: "تصور إحدى مناطق المطاعم والمقاهي",
-    gallery: ["/assets/restaurants-cafes-alt.png"],
+    gallery: ["/SSH/assets/restaurants-cafes-alt.png"],
     intro:
       "وجهة جذب متكاملة تضم مطاعم ومقاهي متنوعة موزعة في مناطق ميدان سيد الشهداء، وتوفر جلسات مميزة بإطلالات على الوادي وجبل أُحد، وسط مناظر طبيعية تمنح الزائر تجربة ضيافة واستراحة تثري رحلته في الميدان.",
     sections: [
@@ -263,7 +263,7 @@ const places: Place[] = [
     id: 10,
     title: "مسار المشاة المظلل",
     icon: Footprints,
-    image: "/assets/shaded-walkway.png",
+    image: "/SSH/assets/shaded-walkway.png",
     imageAlt: "تصور مسار المشاة المظلل وتجربته الحسية",
     intro:
       "مسار مظلل يجمع بين المناطق المستهدف تطويرها، ويسهّل على الزوار رحلتهم ويثريها سمعيًا وبصريًا، مع نظام روائح ذكي يمنح كل منطقة رائحة مميزة.",
@@ -323,7 +323,7 @@ export default function Home() {
         <div className="brand">
           <div className="brand-mark">
             <Image
-              src="/assets/elm-logo.svg"
+              src="/SSH/assets/elm-logo.svg"
               alt="علم"
               width={825}
               height={325}
@@ -370,7 +370,7 @@ export default function Home() {
         >
           <Image
             className="master-map"
-            src="/assets/master-map.png"
+            src="/SSH/assets/master-map.png"
             alt="المخطط العام لميدان سيد الشهداء"
             width={1415}
             height={1112}
